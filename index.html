@@ -1,0 +1,988 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!--=============== FAVICON ===============-->
+    <link rel="shortcut icon" href="img.png" type="image/x-icon">
+
+<!--=============== REMIXICONS ===============-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.5.0/remixicon.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+<!--=============== Font link ===============-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="cdnjs.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Handlee&family=Merienda:wght@300..900&display=swap" rel="stylesheet">
+    <!--=============== SWIPER CSS ===============-->
+    <link rel="stylesheet" href="swiper-bundle.min.css">
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="index.css">
+    <title>Silk Road</title>
+</head>
+<body>
+<!--==================== HEADER ====================-->
+    <header class="header" id="header">
+    <nav class="nav container">
+        <a href="#" class="nav-logo"><i class='bx bxs-book-reader'></i>
+          <div class="change-text">
+            <h3>
+                <span class="word" style="cursor: pointer; color: #219150; font-size: 20px;">Silk &nbsp;Road</span>
+                <span class="word" style="cursor: pointer; color: #1dbe60ec;  font-size: 20px;">Arman&nbsp;library</span>
+            </h3></div></a>
+        <div class="nav-menu">
+            <ul class="nav-list">
+                <li class="nav-item">
+                    <a href="#" class="nav-link">
+                      <i class='bx bx-home-alt-2 icon-nav'></i>
+                        <span>Home</span>
+                    </a>
+                </li>
+
+                <li class="nav-item">
+                    <a href="about.html" class="nav-link">
+                      <i class='bx bx-info-circle icon-nav'></i>
+                        <span>About</span>
+                    </a>
+                </li>
+
+                <li class="nav-item">
+                    <a href="contact.html" class="nav-link">
+                      <i class='bx bxs-contact icon-nav'></i>
+                        <span>Contact</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="nav-action">
+          <!--login Button-->
+          <a href="login.html"><i class='bx bx-user-circle login-button' style="cursor: pointer; font-size: 25px;" id="login-button"></i></a>
+          <!-- theme button -->
+            <i class="bx bx-moon change-theme" id="theme-button"></i>
+        </div>
+    </nav>
+</header>
+
+    <!--==================== HOME ====================-->
+      <section class="home section" id="home">
+        <div class="home-container container grid">
+          <div class="home-data">
+            <h1 class="home-title">
+              Silk Road
+            </h1>
+
+            <p class="home-description" >
+              Hi welcome to Arman Library!  here you can find a lot of books.
+                There is no friend as loyal as a book. A good book is helpful in the success of a person.
+                invite your frinds here and gift them a good book.
+            </p>
+          </div>
+
+          <div class="home-images">
+            <div class="home-swiper swiper">
+              <div class="swiper-wrapper">
+                <article class="home-article swiper-slide">
+                  <a href="Rich Dad Poor Dad silkroad.com.pdf"><img src="ich.jpeg" alt="" height="100px" class="home-img"></a>
+                </article>
+
+                <article class="home-article swiper-slide">
+                  <a href="Top Five Regrets of the Dying.pdf"> <img src="the top five regrets of the dying.jpg" alt="" height="100px" class="home-img"></a>
+                </article>
+
+                <article class="home-article swiper-slide">
+                  <a href="د منټو افسانې معتاده ښځه.pdf"> <img src="ma.jpg" alt="" height="100px" class="home-img"></a>
+                </article>
+
+                <article class="home-article swiper-slide">
+                  <a href="clear thinking.pdf"> <img src="clear think.jpg" alt="" height="100px" class="home-img"></a>
+                </article>
+
+                <article class="home-article swiper-slide">
+                  <a href="Deep Work - Cal Newport.pdf"><img src="deep wotk.jpg" alt="" height="100px" class="home-img"></a>
+                </article>
+
+                <article class="home-article swiper-slide">
+                  <a href="The 48 Laws Of Power.pdf"><img src="48law.png" alt="" height="100px" class="home-img"></a>
+                </article>
+
+                <article class="home-article swiper-slide">
+                  <a href="black.jpg"><img src="blockchain.jpg" alt="" height="100px" class="home-img"></a>
+                </article>
+
+              </div>
+            </div>
+          </div>
+        </div>
+        
+      </section>
+
+<!---================== English Books First Line ===========================--->
+
+      <section class="featured section" id="featured">
+        <h1 class="heading"><span>English Books</span></h1>
+        
+<!--======================== SEARCH =============================-->
+                  <div class="searchbar">
+                    <div class="searchbar-wrapper">
+                        <div class="searchbar-left">
+                            <div class="search-icon-wrapper">
+                                <span class="search-icon searchbar-icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                        <path d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z">
+                                        </path>
+                                    </svg>
+                                </span>
+                            </div>
+                        </div>
+                
+                        <div class="searchbar-center">
+                            <div class="searchbar-input-spacer"></div>
+                
+                            <input type="search" class="searchbar-input" id="search-fun" maxlength="40" name="q" autocapitalize="off" autocomplete="off" title="Search" role="combobox" placeholder="Search" onkeyup="search()">
+                        </div>
+                    </div>
+                </div>
+
+<!--========================  END OF SEARCH BAR  ==========================-->
+
+        <div class="featured-container container">
+          <div class="featured-swiper swiper">
+            <div class="swiper-wrapper" id="swiper-wrapper">
+              <article class="featured-card swiper-slide">
+                <img src="images (1).jpeg" alt="" class="featured-img" style="height: 200px;">
+
+                <h4 class="featured-title search-eng" style="font-size: 20px;">Price action trading</h4>
+                <div class="featured-prices">
+                  <span class="featured-price">Free</span>
+                  <span class="featured-discount">$11.99</span>
+                </div>
+                    
+                  <button class="buttonDownload">Download</button>
+
+                <div class="new-star">
+                  <i class="bx bxs-star"></i>
+                  <i class="bx bxs-star"></i>
+                  <i class="bx bxs-star"></i>
+                  <i class="bx bxs-star"></i>
+                  <i class='bx bxs-star-half'></i>
+                </div>
+
+              </article>
+
+              <article class="featured-card swiper-slide">
+                <a href="Top Five Regrets of the Dying.pdf"> <img src="the top five regrets of the dying.jpg" alt="" class="featured-img" style="height: 200px;"></a>
+
+                  <a href="Top Five Regrets of the Dying.pdf"> <h4 class="featured-title search-eng" style="font-size: 14px;">The top five regrets of the dying</h4></a>
+                <div class="featured-prices">
+                  <span class="featured-price">Free</span>
+                  <span class="featured-discount">$11.99</span>
+                </div>
+                    
+                <a href="Top Five Regrets of the Dying.pdf"> <button class="buttonDownload">Download</button></a>
+
+                <div class="new-star">
+                  <i class="bx bxs-star"></i>
+                  <i class="bx bxs-star"></i>
+                  <i class="bx bxs-star"></i>
+                  <i class="bx bxs-star"></i>
+                  <i class='bx bxs-star-half'></i>
+                </div>
+
+              </article>
+
+              
+              <article class="featured-card swiper-slide">
+                <img src="gain.jpg" alt=""  class="featured-img" style="height: 200px;">
+
+                <h4 class="featured-title search-eng" style="font-size: 20px;">5inch Height Gain</h4>
+                <div class="featured-prices">
+                  <span class="featured-price">Free</span>
+                  <span class="featured-discount">$7.99</span>
+                </div>
+                
+                
+                <button class="buttonDownload">Download</button>
+
+
+               <div class="new-star">
+                  <i class="bx bxs-star"></i>
+                  <i class="bx bxs-star"></i>
+                  <i class="bx bxs-star"></i>
+                  <i class="bx bxs-star"></i>
+                  <i class='bx bxs-star-half'></i>
+                </div>
+
+              </article>
+
+
+              <article class="featured-card swiper-slide">
+                <img src="asa.jpg" alt="" class="featured-img" style="height: 200px;">
+
+                <h4 class="featured-title search-eng" >12 rules for life</h4>
+                <div class="featured-prices">
+                  <span class="featured-price">Free</span>
+                  <span class="featured-discount">$9.99</span>
+                </div>
+                
+                
+                <button class="buttonDownload">Download</button>
+
+
+               <div class="new-star">
+                  <i class="bx bxs-star"></i>
+                  <i class="bx bxs-star"></i>
+                  <i class="bx bxs-star"></i>
+                  <i class="bx bxs-star"></i>
+                  <i class='bx bxs-star-half'></i>
+                </div>
+
+              </article>
+
+
+              <article class="featured-card swiper-slide">
+                <img src="48law.png" alt="" class="featured-img" style="height: 200px;">
+
+                <h4 class="featured-title search-eng">48 Laws of power</h4>
+                <div class="featured-prices">
+                  <span class="featured-price">Free</span>
+                  <span class="featured-discount">$10.99</span>
+                </div>
+                
+               
+                  <button class="buttonDownload">Download</button>
+
+
+               <div class="new-star">
+                  <i class="bx bxs-star"></i>
+                  <i class="bx bxs-star"></i>
+                  <i class="bx bxs-star"></i>
+                  <i class="bx bxs-star"></i>
+                  <i class='bx bxs-star-half'></i>
+                </div>
+
+              </article>
+
+
+
+              <article class="featured-card swiper-slide">
+                <img src="asf.jpeg" alt="" class="featured-img" style="height: 200px;">
+
+                <h4 class="featured-title search-eng"style="font-size: 20px;">Travels into Bokhara</h4>
+                <div class="featured-prices">
+                  <span class="featured-price">Free</span>
+                  <span class="featured-discount">$9.99</span>
+                </div>
+                
+                <button class="buttonDownload">Download</button>
+
+
+               <div class="new-star">
+                  <i class="bx bxs-star"></i>
+                  <i class="bx bxs-star"></i>
+                  <i class="bx bxs-star"></i>
+                  <i class="bx bxs-star"></i>
+                  <i class='bx bxs-star-half'></i>
+                </div>
+
+
+              </article>
+
+
+              <article class="featured-card swiper-slide">
+                <img src="blue.jpg" alt="" class="featured-img" style="height: 200px;">
+
+                <h4 class="featured-title search-eng" style="font-size: 20px;">Blue Ocean Strategy</h4>
+                <div class="featured-prices">
+                  <span class="featured-price">Free</span>
+                  <span class="featured-discount">$8.99</span>
+                </div>
+                
+
+                <button class="buttonDownload">Download</button>
+
+
+               <div class="new-star">
+                  <i class="bx bxs-star"></i>
+                  <i class="bx bxs-star"></i>
+                  <i class="bx bxs-star"></i>
+                  <i class="bx bxs-star"></i>
+                  <i class='bx bxs-star-half'></i>
+                </div>
+
+
+              </article>
+
+
+
+              <article class="featured-card swiper-slide">
+                <img src="clear think.jpg" alt="" class="featured-img" style="height: 200px;">
+
+                <h4 class="featured-title search-eng">Clear Thinking</h4>
+                <div class="featured-prices">
+                  <span class="featured-price">Free</span>
+                  <span class="featured-discount">$8.99</span>
+                 
+                </div>
+                
+
+                <button class="buttonDownload">Download</button>
+
+
+               <div class="new-star">
+                  <i class="bx bxs-star"></i>
+                  <i class="bx bxs-star"></i>
+                  <i class="bx bxs-star"></i>
+                  <i class="bx bxs-star"></i>
+                  <i class='bx bxs-star-half'></i>
+                </div>
+
+
+              </article>
+            </div>
+
+            <div class="swiper-button-prev">
+              <i class='bx bx-chevron-left'></i>
+            </div>
+
+            <div class="swiper-button-next">
+              <i class='bx bx-chevron-right'></i>
+            </div>
+          </div>
+
+
+       <!---================== English Books Second Line ===========================--->
+
+
+          <div class="featured-swiper swiper">
+            <div class="swiper-wrapper">
+              <article class="featured-card swiper-slide">
+                <img src="images (1).jpeg" alt="" class="featured-img" style="height: 200px;">
+
+                <h4 class="featured-title search-eng"  style="font-size: 20px;">Price Action Trading</h4>
+                <div class="featured-prices">
+                  <span class="featured-price">Free</span>
+                  <span class="featured-discount">$11.99</span>
+                </div>
+                
+
+                <button class="buttonDownload">Download</button>
+
+
+               <div class="new-star">
+                  <i class="bx bxs-star"></i>
+                  <i class="bx bxs-star"></i>
+                  <i class="bx bxs-star"></i>
+                  <i class="bx bxs-star"></i>
+                  <i class='bx bxs-star-half'></i>
+                </div>
+
+              </article>
+
+              
+              <article class="featured-card swiper-slide">
+                <img src="gain.jpg" alt=""  class="featured-img" style="height: 200px;">
+
+                <h4 class="featured-title search-eng" style="font-size: 20px;">5inch Height Gain</h4>
+                <div class="featured-prices">
+                  <span class="featured-price">Free</span>
+                  <span class="featured-discount">$7.99</span>
+                </div>
+                
+
+                <button class="buttonDownload">Download</button>
+
+
+               <div class="new-star">
+                  <i class="bx bxs-star"></i>
+                  <i class="bx bxs-star"></i>
+                  <i class="bx bxs-star"></i>
+                  <i class="bx bxs-star"></i>
+                  <i class='bx bxs-star-half'></i>
+                </div>
+
+              </article>
+
+
+              <article class="featured-card swiper-slide">
+                <img src="asa.jpg" alt="" class="featured-img" style="height: 200px;">
+
+                <h4 class="featured-title search-eng">12 rules for life</h2>
+                <div class="featured-prices">
+                  <span class="featured-price">Free</span>
+                  <span class="featured-discount">$9.99</span>
+                </div>
+                
+
+                <button class="buttonDownload">Download</button>
+
+
+               <div class="new-star">
+                  <i class="bx bxs-star"></i>
+                  <i class="bx bxs-star"></i>
+                  <i class="bx bxs-star"></i>
+                  <i class="bx bxs-star"></i>
+                  <i class='bx bxs-star-half'></i>
+                </div>
+
+
+              </article>
+
+
+              <article class="featured-card swiper-slide">
+                <img src="48law.png" alt="" class="featured-img" style="height: 200px;">
+
+                <h4 class="featured-title search-eng">48 laws of power</h4>
+                <div class="featured-prices">
+                  <span class="featured-price">Free</span>
+                  <span class="featured-discount">$10.99</span>
+                </div>
+                
+
+                <button class="buttonDownload">Download</button>
+
+
+               <div class="new-star">
+                  <i class="bx bxs-star"></i>
+                  <i class="bx bxs-star"></i>
+                  <i class="bx bxs-star"></i>
+                  <i class="bx bxs-star"></i>
+                  <i class='bx bxs-star-half'></i>
+                </div>
+
+
+              </article>
+
+
+
+              <article class="featured-card swiper-slide">
+                <img src="asf.jpeg" alt="" class="featured-img" style="height: 200px;">
+
+                <h4 class="featured-title search-eng" style="font-size: 20px;">Travels Into Bokhara</h4>
+                <div class="featured-prices">
+                  <span class="featured-price">Free</span>
+                  <span class="featured-discount">$9.99</span>
+                </div>
+                
+
+                <button class="buttonDownload">Download</button>
+
+
+               <div class="new-star">
+                  <i class="bx bxs-star"></i>
+                  <i class="bx bxs-star"></i>
+                  <i class="bx bxs-star"></i>
+                  <i class="bx bxs-star"></i>
+                  <i class='bx bxs-star-half'></i>
+                </div>
+
+             
+              </article>
+
+
+              <article class="featured-card swiper-slide">
+                <img src="blue.jpg" alt="" class="featured-img" style="height: 200px;">
+
+                <h4 class="featured-title search-eng" style="font-size: 20px;">Blue Ocean Strategy</h4>
+                <div class="featured-prices">
+                  <span class="featured-price">Free</span>
+                  <span class="featured-discount">$8.99</span>
+                </div>
+                
+
+                <button class="buttonDownload">Download</button>
+
+
+               <div class="new-star">
+                  <i class="bx bxs-star"></i>
+                  <i class="bx bxs-star"></i>
+                  <i class="bx bxs-star"></i>
+                  <i class="bx bxs-star"></i>
+                  <i class='bx bxs-star-half'></i>
+                </div>
+
+
+
+              </article>
+
+
+
+              <article class="featured-card swiper-slide">
+                <img src="clear think.jpg" alt="" class="featured-img" style="height: 200px;">
+
+                <h4 class="featured-title search-eng">Clear Thinking</h4>
+                <div class="featured-prices">
+                  <span class="featured-price">Free</span>
+                  <span class="featured-discount">$8.99</span>
+                 
+                </div>
+                
+
+                <button class="buttonDownload">Download</button>
+
+              <div class="new-star">
+                <i class="bx bxs-star"></i>
+                <i class="bx bxs-star"></i>
+                <i class="bx bxs-star"></i>
+                <i class="bx bxs-star"></i>
+                <i class='bx bxs-star-half'></i>
+              </div>
+
+              </article>
+            </div>
+
+            <div class="swiper-button-prev">
+              <i class='bx bx-chevron-left'></i>
+            </div>
+
+            <div class="swiper-button-next">
+              <i class='bx bx-chevron-right'></i>
+            </div>
+          </div>
+
+
+
+         </div>
+      </section>
+
+      <!--==================== Pashto BOOKS first line ====================-->
+      <section class="featured section" id="featured">
+        <h1 class="heading"><span>Pashto Books</span></h1> 
+
+         <div class="featured-container container">
+          <div class="featured-swiper swiper">
+            <div class="swiper-wrapper">
+              <article class="featured-card swiper-slide new-card">
+                <a href="وطن می silkroad.com.pdf"> <img src="dr.png" alt="" class="featured-img" style="height: 200px;"></a>
+
+                <a href="وطن می silkroad.com.pdf"><h2 class="featured-title">وطن می</h2></a>
+                <div class="featured-prices">
+                  <span class="featured-price">Free</span>
+                  <span class="featured-discount">$9.99</span>
+                </div>
+                
+                <a href="وطن می silkroad.com.pdf"> <button class="buttonDownload">Download</button></a>
+
+
+                <div class="new-star">
+                  <i class="bx bxs-star"></i>
+                  <i class="bx bxs-star"></i>
+                  <i class="bx bxs-star"></i>
+                  <i class="bx bxs-star"></i>
+                  <i class='bx bxs-star-half'></i>
+                </div>
+
+
+              </article>
+
+              
+              <article class="featured-card swiper-slide">
+                <a href="cia.pdf">  <img src="cia.jpg" alt=""  class="featured-img" style="height: 200px;"></a>
+
+                <a href="cia.pdf"><h2 class="featured-title">د سي آی اې پټې جګړې</h2></a>
+                <div class="featured-prices">
+                  <span class="featured-price">Free</span>
+                  <span class="featured-discount">$7.99</span>
+                </div>
+                
+
+                <a href="cia.pdf"> <button class="buttonDownload">Download</button></a>
+
+                
+                <div class="new-star">
+                  <i class="bx bxs-star"></i>
+                  <i class="bx bxs-star"></i>
+                  <i class="bx bxs-star"></i>
+                  <i class="bx bxs-star"></i>
+                  <i class='bx bxs-star-half'></i>
+                </div>
+                
+              </article>
+
+
+              <article class="featured-card swiper-slide">
+                <a href="بغدادي-پير .pdf"> <img src="b.jpg" alt="" class="featured-img"  style="height: 200px;"></a>
+
+               <a href="بغدادي-پير .pdf"> <h2 class="featured-title">بغدادي پیر</h2></a>
+                <div class="featured-prices">
+                  <span class="featured-price">Free</span>
+                  <span class="featured-discount">$6.99</span>
+                </div>
+                
+
+                <a href="بغدادي-پير .pdf"> <button class="buttonDownload">Download</button></a>
+
+                <div class="new-star">
+                  <i class="bx bxs-star"></i>
+                  <i class="bx bxs-star"></i>
+                  <i class="bx bxs-star"></i>
+                  <i class="bx bxs-star"></i>
+                  <i class='bx bxs-star-half'></i>
+                </div>
+
+              </article>
+
+
+              <article class="featured-card swiper-slide">
+                <a href="لېونی نابغه.pdf"> <img src="n.jpg" alt="" class="featured-img" style="height: 200px;"></a>
+
+                <a href="لېونی نابغه.pdf"><h2 class="featured-title">لېونی نابغه</h2></a>
+                <div class="featured-prices">
+                  <span class="featured-price">Free</span>
+                  <span class="featured-discount">$5.99</span>
+                </div>
+                
+
+                <a href="لېونی نابغه.pdf"> <button class="buttonDownload">Download</button></a>
+
+                <div class="new-star">
+                  <i class="bx bxs-star"></i>
+                  <i class="bx bxs-star"></i>
+                  <i class="bx bxs-star"></i>
+                  <i class="bx bxs-star"></i>
+                  <i class='bx bxs-star-half'></i>
+                </div>
+
+              </article>
+
+
+
+              <article class="featured-card swiper-slide">
+                <a href="د منټو افسانې معتاده ښځه.pdf"> <img src="ma.jpg" alt="" class="featured-img" style="height: 200px;"></a>
+
+                <a href="د منټو افسانې معتاده ښځه.pdf"><h2 class="featured-title">د منټو افسانې معتاده ښځه</h2></a>
+                <div class="featured-prices">
+                  <span class="featured-price">Free</span>
+                  <span class="featured-discount">$9.99</span>
+                </div>
+                
+
+                <a href="د منټو افسانې معتاده ښځه.pdf"><button class="buttonDownload">Download</button></a>
+
+
+                <div class="new-star">
+                  <i class="bx bxs-star"></i>
+                  <i class="bx bxs-star"></i>
+                  <i class="bx bxs-star"></i>
+                  <i class="bx bxs-star"></i>
+                  <i class='bx bxs-star-half'></i>
+                </div>
+
+              </article>
+
+
+              <article class="featured-card swiper-slide">
+                <img src="rich.jpg" alt="" class="featured-img" style="height: 200px;">
+
+                <h2 class="featured-title">شتمن پلار نیستمن پلار</h2>
+                <div class="featured-prices">
+                  <span class="featured-price">Free</span>
+                  <span class="featured-discount">$7.99</span>
+                </div>
+                
+
+                <button class="buttonDownload">Download</button>
+
+                <div class="new-star">
+                  <i class="bx bxs-star"></i>
+                  <i class="bx bxs-star"></i>
+                  <i class="bx bxs-star"></i>
+                  <i class="bx bxs-star"></i>
+                  <i class='bx bxs-star-half'></i>
+                </div>
+
+              </article>
+
+
+
+              <article class="featured-card swiper-slide">
+                <a href="تور_تاریخ.pdf"><img src="black.jpg" alt="" class="featured-img" style="height: 210px;"></a>
+
+                <a href="تور_تاریخ.pdf"> <h2 class="featured-title" style="font-size: 16px;">زموږ د دښمنانو تور تاریخ او شومې پیښې</h2></a>
+                <div class="featured-prices">
+                  <span class="featured-price">Free</span>
+                  <span class="featured-discount">$5.99</span>
+                </div>
+                
+
+                <a href="تور_تاریخ.pdf"><button class="buttonDownload">Download</button></a>
+
+
+                <div class="new-star">
+                  <i class="bx bxs-star"></i>
+                  <i class="bx bxs-star"></i>
+                  <i class="bx bxs-star"></i>
+                  <i class="bx bxs-star"></i>
+                  <i class='bx bxs-star-half'></i>
+                </div>
+
+              </article>
+            </div>
+
+            <div class="swiper-button-prev">
+              <i class='bx bx-chevron-left'></i>
+            </div>
+
+            <div class="swiper-button-next">
+              <i class='bx bx-chevron-right'></i>
+            </div>
+          </div>
+        </div>
+          
+      <!--==================== Pashto Books Second line ====================-->
+
+      <div class="featured-container container">
+      <div class="featured-swiper swiper">
+        <div class="swiper-wrapper">
+          <article class="featured-card swiper-slide new-card">
+            <a href="د افغانستان د جهاد داستان.pdf"> <img src="afg.jpeg" alt="" class="featured-img" style="height: 200px;"></a>
+
+            <a href="د افغانستان د جهاد داستان.pdf"><h2 class="featured-title">د افغانستان د جهاد داستان</h2></a>
+            <div class="featured-prices">
+              <span class="featured-price">Free</span>
+              <span class="featured-discount">$9.99</span>
+            </div>
+            
+
+            <button class="buttonDownload">Download</button>
+
+
+
+            <div class="new-star">
+              <i class="bx bxs-star"></i>
+              <i class="bx bxs-star"></i>
+              <i class="bx bxs-star"></i>
+              <i class="bx bxs-star"></i>
+              <i class='bx bxs-star-half'></i>
+            </div>
+
+
+          </article>
+
+          
+          <article class="featured-card swiper-slide">
+            <a href="اسلام او موسیقي.pdf"><img src="islam.png" alt=""  class="featured-img" style="height: 200px;"></a>
+
+            <a href="اسلام او موسیقي.pdf"><h2 class="featured-title">اسلام او موسقي</h2></a>
+            <div class="featured-prices">
+              <span class="featured-price">Free</span>
+              <span class="featured-discount">$7.99</span>
+            </div>
+            
+
+            <a href="اسلام او موسیقي.pdf"> <button class="buttonDownload">Download</button></a>
+
+            
+            <div class="new-star">
+              <i class="bx bxs-star"></i>
+              <i class="bx bxs-star"></i>
+              <i class="bx bxs-star"></i>
+              <i class="bx bxs-star"></i>
+              <i class='bx bxs-star-half'></i>
+            </div>
+            
+          </article>
+
+
+          <article class="featured-card swiper-slide">
+            <img src="b.jpg" alt="" class="featured-img"  style="height: 200px;">
+
+            <h2 class="featured-title">بغدادي پیر</h2>
+            <div class="featured-prices">
+              <span class="featured-price">Free</span>
+              <span class="featured-discount">$6.99</span>
+            </div>
+            
+
+            <button class="buttonDownload">Download</button>
+
+
+            <div class="new-star">
+              <i class="bx bxs-star"></i>
+              <i class="bx bxs-star"></i>
+              <i class="bx bxs-star"></i>
+              <i class="bx bxs-star"></i>
+              <i class='bx bxs-star-half'></i>
+            </div>
+
+          </article>
+
+
+          <article class="featured-card swiper-slide">
+            <img src="n.jpg" alt="" class="featured-img" style="height: 200px;">
+
+            <h2 class="featured-title">لېونی نابغه</h2>
+            <div class="featured-prices">
+              <span class="featured-price">Free</span>
+              <span class="featured-discount">$5.99</span>
+            </div>
+            
+
+            <button class="buttonDownload">Download</button>
+
+
+            <div class="new-star">
+              <i class="bx bxs-star"></i>
+              <i class="bx bxs-star"></i>
+              <i class="bx bxs-star"></i>
+              <i class="bx bxs-star"></i>
+              <i class='bx bxs-star-half'></i>
+            </div>
+
+          </article>
+
+
+
+          <article class="featured-card swiper-slide">
+            <img src="ma.jpg" alt="" class="featured-img" style="height: 200px;">
+
+            <h2 class="featured-title">د منټو افسانې معتاده ښځه</h2>
+            <div class="featured-prices">
+              <span class="featured-price">Free</span>
+              <span class="featured-discount">$9.99</span>
+            </div>
+            
+
+            <button class="buttonDownload">Download</button>
+
+
+            <div class="new-star">
+              <i class="bx bxs-star"></i>
+              <i class="bx bxs-star"></i>
+              <i class="bx bxs-star"></i>
+              <i class="bx bxs-star"></i>
+              <i class='bx bxs-star-half'></i>
+            </div>
+
+          </article>
+
+
+          <article class="featured-card swiper-slide">
+            <img src="rich.jpg" alt="" class="featured-img" style="height: 200px;">
+
+            <h2 class="featured-title">شتمن پلار نیستمن پلار</h2>
+            <div class="featured-prices">
+              <span class="featured-price">Free</span>
+              <span class="featured-discount">$7.99</span>
+            </div>
+            
+
+            <button class="buttonDownload">Download</button>
+
+
+            <div class="new-star">
+              <i class="bx bxs-star"></i>
+              <i class="bx bxs-star"></i>
+              <i class="bx bxs-star"></i>
+              <i class="bx bxs-star"></i>
+              <i class='bx bxs-star-half'></i>
+            </div>
+
+          </article>
+
+
+
+          <article class="featured-card swiper-slide">
+            <img src="black.jpg" alt="" class="featured-img" style="height: 210px;">
+
+            <h2 class="featured-title" style="font-size: 16px;">زموږ د دښمنانو تور تاریخ او شومې پیښې</h2>
+            <div class="featured-prices">
+              <span class="featured-price">Free</span>
+              <span class="featured-discount">$5.99</span>
+             
+            </div>
+            
+
+            <button class="buttonDownload">Download</button>
+
+
+            <div class="new-star">
+              <i class="bx bxs-star"></i>
+              <i class="bx bxs-star"></i>
+              <i class="bx bxs-star"></i>
+              <i class="bx bxs-star"></i>
+              <i class='bx bxs-star-half'></i>
+            </div>
+
+          </article>
+        </div>
+
+        <div class="swiper-button-prev">
+          <i class='bx bx-chevron-left'></i>
+        </div>
+
+        <div class="swiper-button-next">
+          <i class='bx bx-chevron-right'></i>
+        </div>
+      </div>
+     </div>
+         
+      </section>
+
+      <!--==================== TESTIMONIAL ====================-->
+      <section class="testimonial section" id="testimonial">
+        <h1 class="heading-test">
+         <div class="container-text">
+          <span class="text-found sec-text" style="font-size: 24px;"></span></div></h1>
+      
+        <div class="testimonial-container container">
+          <div class="testimonial-swiper">
+            <div  style="display: flex; justify-content: center; align-items: center;">
+              <article class="testimonial-card" >
+                <img src="sabaarman.png" class="test-img" width="300px" alt="">
+                <h2 class="testimonial-title">Arman Sherzad</h2>
+                <p class="testimonial-description">
+                  Hi, My name is Arman Sherzad. I am from Afghanistan.<br>
+                  I love helping people, so I thought this would be a
+                  great way<br> to build an ebook website.
+                  I Hope you find your favorite books here
+                </p>
+              </article>
+            </div>
+          </div>
+        </div>
+        
+      </section>
+  </main>
+      <!--==================== Footer ====================-->
+
+<footer class="footer-container">
+        <div class="waves">
+            <div class="wave" id="wave1"></div>
+            <div class="wave" id="wave2"></div>
+            <div class="wave" id="wave3"></div>
+            <div class="wave" id="wave4"></div>
+        </div>
+        <h3 style="color: #fff;">Contact Us</h3>
+        <div class="socail-icon">
+          <a href="https://www.facebook.com/profile.php?id=61560013738369&mibextid=ZbWKwL"><i class="bx bxl-facebook fb"></i></a>
+          <a href="https://t.me/Arman_library"><i class='bx bxl-telegram tel' ></i></a>
+          <a href="https://youtube.com/@codelearning-ln5ng?si=6XTMf0uPTj3MYb0Q"><i class='bx bxl-youtube you' ></i></a>
+          <a href="#"><i class='bx bxl-linkedin link' ></i></a>
+      </div>
+      <ul class="menu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="login.html">Login</a></li>
+    </ul>
+        <p>© 2024 Digetal Library | All Rights Reserved</p>
+    </footer>
+
+   <!--========== SCROLL UP ==========-->
+   <a href="#" class="scrollup" id="scroll-up">
+    <i class='bx bx-up-arrow-alt'></i>
+   </a>
+   
+
+   <!--=============== SCROLLREVEAL ===============-->
+   <script src="scrollreveal.min.js"></script>
+
+   <!--=============== SWIPER JS ===============-->
+   <script src="swiper-bundle.min.js"></script>
+
+   <!--=============== MAIN JS ===============-->
+   <script src="index.js"></script>
+</body>
+</html>
