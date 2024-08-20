@@ -415,7 +415,7 @@ of the website, in dark theme =============*/
   border: none;
   margin: 0;
   padding: 0;
-  color: te;
+  color: var(--text-color);
   word-wrap: break-word;
   outline: none;
   display: flex;
