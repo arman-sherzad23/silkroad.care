@@ -33,7 +33,7 @@
   --text-color: #292e33;
   --border-color: hsl(230, 50%, 90%);
   --white-color: hsl(0, 0%, 100%);
-  --body-color: hsl(230, 100%, 96%);
+  --body-color: #fff;
   --container-color: hsl(230, 100%, 97%);
 
   /*========== Font and typography ==========*/
@@ -146,11 +146,11 @@ of the website, in dark theme =============*/
 }
 
 .dark-theme::-webkit-scrollbar{
-  background-color: hsla(230, 16%, 15%);
+  background-color: rgb(38, 42, 63);
 }
 
 .dark-theme::-webkit-scrollbar-thumb{
-  background-color: hsla(230, 16%, 25%);
+  background-color: rgb(95, 98, 114);
 }
 
 .dark-theme::-webkit-scrollbar-thumb:hover{
@@ -191,6 +191,8 @@ of the website, in dark theme =============*/
   background-color: var(--body-color);
   z-index: var(--z-fixed);
   transition: box-shadow .4s background-color .4s;
+}
+.shadow-header{
   box-shadow:  0 -8px 32px hsla(0, 0%, 0%, 0.822);
 }
 
@@ -1038,11 +1040,11 @@ footer .wave#wave4{
 /*=============== SCROLL BAR ===============*/
 ::-webkit-scrolbar{
   width: 6rem;
-  border-radius: .5rem;
+  border-radius: 10px 40px;
   background-color: hsl(0, 16%, 85%);
 }
 ::-webkit-scrollbar-thumb{
-  border-radius: .5rem;
+  border-radius: 10px 40px;
   background-color: hsl(0, 16%, 65%);
 }
 ::-webkit-scrollbar-thumb:hover{
@@ -1058,6 +1060,7 @@ footer .wave#wave4{
   display: inline-flex;
   padding: 6px;
   font-size: 1.25rem;
+  color: var(--title-color);
   z-index: var(--z-tooltip);
   transition: bottom .4s, background-color .4s;
 }
@@ -1068,7 +1071,7 @@ footer .wave#wave4{
 
 /* Show Scroll Up */
 .show-scroll{
-  bottom: .6rem;
+  bottom: 6rem;
 }
 
 /*=============== BREAKPOINTS ===============*/
