@@ -33,7 +33,7 @@
   --text-color: #292e33;
   --border-color: hsl(230, 50%, 90%);
   --white-color: hsl(0, 0%, 100%);
-  --body-color: hsl(230, 100%, 96%);
+  --body-color: #fff;
   --container-color: hsl(230, 100%, 97%);
 
   /*========== Font and typography ==========*/
@@ -288,6 +288,9 @@ body{
 	}
 
 }
+.shadow-header{
+	box-shadow:  0 -8px 32px hsla(0, 0%, 0%, 0.822);
+  }
 
 
 .container-text .text-found{
@@ -296,6 +299,7 @@ body{
 	font-size: 22px;
 	font-weight: 600;
   }
+
   .container-text .text-found.first-text{
 	color: var(--text-color);
   }
@@ -324,7 +328,7 @@ body{
 	top: 0;
 	left: 0;
 	width: 100%;
-	background-color:  var(--container-color);
+	background-color:  var(--body-color);
 	z-index: var(--z-fixed);
 	transition: box-shadow .4s background-color .4s;
 	box-shadow:  0 -8px 32px hsla(0, 0%, 0%, 0.822);
