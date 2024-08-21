@@ -35,6 +35,8 @@
   --white-color: hsl(0, 0%, 100%);
   --body-color: #fff;
   --container-color: hsl(230, 100%, 97%);
+  --button-color: #fff;
+  --box-shadow: 0 0 10px rgba(0, 0, 0, 0.24);
 
   /*========== Font and typography ==========*/
   /*.5rem = 8px | 1rem = 16px ...*/
@@ -128,14 +130,17 @@ body.dark-theme{
   --border-color: hsl(230, 12%, 18%);
   --body-color: hsl(230, 12%, 8%);
   --container-color: hsl(230, 12%, 12%);
-
+  --button-color: #000;
+  --box-shadow: 0 0 10px rgba(255, 255, 255, 0.459);
+  --header-shadow: 0 -8px 32px hsl(0, 0%, 100%);
+  --box-shadow: 0 0 10px rgba(117, 117, 117, 0.507);
 }
 
 
 /*========== color change in some part 
 of the website, in dark theme =============*/
 .dark-theme .shadow-header{
-  box-shadow: 0 2px 16px hsla(0, 0%, 0%, .4);
+  box-shadow: 0 2px 16px hsla(0, 0%, 71%, 0.63);
 }
 .dark-theme .nav-menu{
   box-shadow: 0 -8px 32px hsla(0, 0%, 0%, .4);
@@ -198,7 +203,7 @@ body {
     overflow: hidden;
     padding: 20px;
     background: var(--body-color);
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: var(--box-shadow);
     transition: background 0.3s, color 0.3s;
 }
 h1, h2 {
@@ -222,7 +227,7 @@ ul li {
     display: inline-block;
     padding: 10px 20px;
     background-color: #4CAF50;
-    color: var(--text-color);
+    color: var(--button-color);
     border: none;
     cursor: pointer;
     margin-top: 20px;
@@ -267,8 +272,9 @@ background-color: var(--body-color);
 z-index: var(--z-fixed);
 transition: box-shadow .4s background-color .4s;
 }
+
 .shadow-header{
-box-shadow:  0 -8px 32px hsl(0, 0%, 0%);
+box-shadow:  var(--header-shadow);
 }
 
 .nav{
