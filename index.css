@@ -35,6 +35,7 @@
   --white-color: hsl(0, 0%, 100%);
   --body-color: #fff;
   --container-color: hsl(230, 100%, 97%);
+  --header-shadow: 0 -8px 32px hsla(0, 0%, 0%, 0.822);
 
   /*========== Font and typography ==========*/
   /*.5rem = 8px | 1rem = 16px ...*/
@@ -128,14 +129,13 @@ body.dark-theme{
   --border-color: hsl(230, 12%, 18%);
   --body-color: hsl(230, 12%, 8%);
   --container-color: hsl(230, 12%, 12%);
-
 }
 
 
 /*========== color change in some part 
 of the website, in dark theme =============*/
 .dark-theme .shadow-header{
-  box-shadow: 0 2px 16px hsla(0, 0%, 0%, .4);
+  box-shadow: 0 2px 16px hsla(0, 0%, 63%, 0.4);
 }
 .dark-theme .nav-menu{
   box-shadow: 0 -8px 32px hsla(0, 0%, 0%, .4);
@@ -193,7 +193,7 @@ of the website, in dark theme =============*/
   transition: box-shadow .4s background-color .4s;
 }
 .shadow-header{
-  box-shadow:  0 -8px 32px hsla(0, 0%, 0%, 0.822);
+  box-shadow:  var(--header-shadow);
 }
 
 .nav{
@@ -201,6 +201,21 @@ of the website, in dark theme =============*/
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+.flag {
+  width: var(--header-height);
+  height: var(--header-height);
+  padding: 0px;
+}
+
+.afghanistan {
+  background: linear-gradient(to right,black 33%,#be0000 33%, #be0000 66%, #009900 0);
+}
+
+.afghanistan__logo {
+  position: absolute;
+  width: var(--header-height);
 }
 
 .nav-logo{
