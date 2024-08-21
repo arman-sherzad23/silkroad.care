@@ -181,7 +181,20 @@ textarea {
   align-items: center;
   justify-content: center;
 }
+.flag {
+  width: var(--header-height);
+  height: var(--header-height);
+  padding: 0px;
+}
 
+.afghanistan {
+  background: linear-gradient(to right,black 33%,#be0000 33%, #be0000 66%, #009900 0);
+}
+
+.afghanistan__logo {
+  position: absolute;
+  width: var(--header-height);
+}
 .form {
   width: 100%;
   max-width: 820px;
