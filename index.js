@@ -112,7 +112,7 @@ let swiperNew = new Swiper('.new-swiper', {
         1150: {
             slidesPerView: 3,
         }
-    }
+    } 
   });
 
 /*=============== TESTIMONIAL SWIPER ===============*/
@@ -147,6 +147,7 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     });
 });
+
 
 /*=============== text animation ===============*/
 
@@ -205,3 +206,19 @@ const textLoad = () => {
 
 textLoad();
 setInterval(textLoad, 12000);
+
+/*=============== Scroll Reveal Animation ===============*/ 
+const sr = ScrollReveal({
+    origin: 'top',
+    distance: '60px',
+    duration: 2500,
+    delay: 400,
+    // reset: true, // Animations repeat
+});
+
+sr.reveal('.home-data, .featured-container, .new-container, .join-data, .testimonial-container, .footer');
+sr.reveal('.home-images', { delay: 600 });
+sr.reveal('.services-card', { interval: 100 });
+sr.reveal('.discount-data', { origin: 'left' });
+sr.reveal('.discount-images', { origin: 'right' });
+
