@@ -292,6 +292,45 @@ body{
 	box-shadow:  0 -8px 32px hsla(0, 0%, 0%, 0.822);
   }
 
+.flag {
+    position: relative;
+    width: var(--header-height);
+    height: var(--header-height);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+}
+
+.afghanistan {
+    background: linear-gradient(to right,black 33%,#be0000 33%, #be0000 66%, #009900 0);
+}
+
+.afghanistan__logo {
+    position: absolute;
+    inset: 0;
+    width: var(--header-height);
+    margin: auto;
+}
+@media screen and (max-width:380px) {
+	  
+.flag {
+    position: relative;
+    width: 40px;
+    height: 50px;
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+}
+
+.afghanistan {
+    background: linear-gradient(to right,black 33%,#be0000 33%, #be0000 66%, #009900 0);
+}
+
+.afghanistan__logo {
+    position: absolute;
+    inset: 0;
+    width: var(--header-height);
+    margin: auto;
+}
+}
 
 .container-text .text-found{
 	position: relative;
@@ -555,6 +594,3 @@ footer .menu li a:hover{
   .login-btn:hover{
 	color: #27ae60;
 }
-
-
-
